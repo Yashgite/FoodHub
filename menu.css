@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color:rgb(255, 185, 94);
+}
+
+h3{
+    line-height: 3rem;
+    font-size: 2.8rem;
+}
+
+h2{
+    color:rgb(255, 185, 94);
+    line-height: 3rem;
+    font-size: 2.8rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    font-family: Arial, sans-serif;
+    background-color:rgb(255, 185, 94); ;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #000000;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+.order{
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+    color: white;
+    background-color:rgb(246, 134, 43) ;
+}
+
+button:hover{
+    background-color:rgb(237, 107, 8) ;
+}
+
+.log-in{
+    padding: 0.7rem;
+    border: none;
+    color: white;
+    background-color:rgb(246, 134, 43) ;
+}
+
+.menu-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.menu-section h2 {
+    margin-bottom: 30px;
+    color: rgb(255, 185, 94);
+}
+.menu-category {
+    margin-bottom: 30px;
+}
+.menu-category h3 {
+    color: #ff4b4b;
+}
+.menu-item {
+    margin: 10px 0;
+}
+.order-footer {
+    padding: 20px 0;
+    background-color: rgb(255, 185, 94);
+    text-align: center;
+    color: #fff;
+}
+
+.contact-section{
+    padding: 50px 0;
+    background-color: rgb(247, 244, 80);
+}
+
+.contact-section {
+    padding: 50px 0; /* Adjust the top and bottom padding as needed */
+}
+
+.contact-section h2,
+.contact-section h4,
+.contact-section form {
+    margin-bottom: 20px; /* Adds space below each element */
+}
+
+.contact-section .form-group {
+    margin-bottom: 20px; /* Adds space below each form group */
+}
+
+.contact-section .form-group {
+    margin-bottom: 20px; /* Adds space below each form group */
+}
+
+.contact-section label {
+    text-align: left; /* Align labels to the left */
+    display: block; /* Ensure labels are displayed as block elements */
+    margin-bottom: 5px; /* Add some bottom margin for spacing */
+    width: 100px; /* Adjust the width of labels as needed */
+}
+
+@media (max-width: 768px) {
+    .contact-section label {
+        text-align: left; /* Center labels on smaller screens */
+    }
+}
+
+.footer-section {
+    text-align: center; /* Center align all content */
+    padding: 20px 0; /* Adjust padding as needed */
+    background-color:rgb(255, 185, 94);
+}
+
